@@ -45,7 +45,7 @@ graph LR
 
 - **hypr** spina całość: odpala waybar, tapety i demona command center.
 - `wallpaper.sh` z **hypr** to jedyny kod, który ustawia tapety. command center, waybar i wall-downloader tylko go wołają.
-- **command-center** i **wall-downloader** działają też bez reszty. Bez `wallpaper.sh` nie ustawiają tapet, a główny monitor wybierają sami (`$PRIMARY_MONITOR` albo największy).
+- **command-center** i **wall-downloader** działają też bez reszty, tylko bez `wallpaper.sh` nie ustawiają tapet (command center je wyświetla, wall-downloader pobiera).
 - **alacritty**, **tmux** i **nvim** są niezależne. Działają na każdym systemie, nie tylko z Hyprlandem.
 
 ## Instalacja
