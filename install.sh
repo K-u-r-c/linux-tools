@@ -130,7 +130,10 @@ update_all() {
         if git -C "$dir" pull --ff-only -q; then echo "  [ok] $c ($(git -C "$dir" log -1 --format='%h %s'))"
         else echo "  [!!] $c – lokalne zmiany? sprawdź: git -C $dir status"; fi
     done
-    if pgrep -f '^python[0-9.]* [^ ]*command[_-]center' >/dev/null && [[ -x "$BIN_DIR/command-center-restart" ]]; then
+    # tylko demon z tej instalacji (ścieżka w cmdline), nie np. drugi command center z innego katalogu
+    local cc_dir; cc_dir=$(target command-center)
+    if pgrep -f "^python[0-9.]* ($BIN_DIR/command-center|$cc_dir/command_center\.py)( |\$)" >/dev/null &&
+       [[ -x "$BIN_DIR/command-center-restart" ]]; then
         setsid -f "$BIN_DIR/command-center-restart" >/dev/null 2>&1 </dev/null
         echo "  command center zrestartowany"
     fi
