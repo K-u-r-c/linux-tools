@@ -27,7 +27,7 @@ target() {
 
 desc() {
     case "$1" in
-        hypr)            echo "Hyprland: config, tapety (hyprpaper/mpvpaper), monitory" ;;
+        hypr)            echo "Hyprland: config, tapety (hyprpaper/mpvpaper), monitory, HDR, wygaszacz, numer pulpitu" ;;
         waybar)          echo "terminalowy pasek z auto-hide" ;;
         alacritty)       echo "terminal: czarny, przezroczysty" ;;
         tmux)            echo "tmux bez paska – pokazuje się po Ctrl+Space" ;;
@@ -40,7 +40,7 @@ desc() {
 # pakiety z repo / z AUR
 deps() {
     case "$1" in
-        hypr)            echo "hyprland hyprpaper jq wofi grim slurp wl-clipboard" ;;
+        hypr)            echo "hyprland hyprpaper jq wofi grim slurp wl-clipboard hypridle cmatrix python-gobject gtk3 gtk-layer-shell python-cairo" ;;
         waybar)          echo "waybar jq ttf-meslo-nerd playerctl pavucontrol btop networkmanager wofi" ;;
         alacritty)       echo "alacritty" ;;
         tmux)            echo "tmux" ;;

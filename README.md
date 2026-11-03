@@ -4,8 +4,8 @@ Moje narzędzia i configi do **Hyprlanda** na Arch / CachyOS. Wszystko w jednym,
 
 | Repo | Co to jest | Gdzie trafia |
 |---|---|---|
-| [**hypr**](https://github.com/K-u-r-c/hypr) | config Hyprlanda + `wallpaper.sh` (tapety-obrazy przez hyprpaper, wideo przez mpvpaper) + skrypty od monitorów | `~/.config/hypr` |
-| [**command-center**](https://github.com/K-u-r-c/command-center) | HUD pod SUPER+TAB: wyszukiwarka aplikacji, audio, jasność monitorów, Bluetooth, zrzuty, tapety, monitor systemu | `~/.local/share/command-center` |
+| [**hypr**](https://github.com/K-u-r-c/hypr) | config Hyprlanda + `wallpaper.sh` (tapety-obrazy przez hyprpaper, wideo przez mpvpaper) + skrypty od monitorów, przełącznik HDR, wygaszacz Matrix (hypridle) i numer pulpitu po przełączeniu | `~/.config/hypr` |
+| [**command-center**](https://github.com/K-u-r-c/command-center) | HUD pod SUPER+TAB: wyszukiwarka aplikacji, audio, jasność monitorów i HDR, Bluetooth, zrzuty, tapety, monitor systemu | `~/.local/share/command-center` |
 | [**waybar**](https://github.com/K-u-r-c/waybar) | terminalowy pasek z auto-hide, tylko na głównym monitorze | `~/.config/waybar` |
 | [**wall-downloader**](https://github.com/K-u-r-c/wall-downloader) | przeglądarka i pobieranie animowanych tapet z MoeWalls | `~/.local/share/wall-downloader` |
 | [**alacritty**](https://github.com/K-u-r-c/alacritty) | terminal: czarny, przezroczysty | `~/.config/alacritty` |
