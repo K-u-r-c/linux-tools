@@ -28,7 +28,7 @@ target() {
 desc() {
     case "$1" in
         hypr)            echo "Hyprland: config, tapety (hyprpaper/mpvpaper), monitory, HDR, wygaszacz, numer pulpitu" ;;
-        waybar)          echo "terminalowy pasek z auto-hide" ;;
+        waybar)          echo "terminalowy pasek z auto-hide i ikonami okien na pulpitach" ;;
         alacritty)       echo "terminal: czarny, przezroczysty" ;;
         tmux)            echo "tmux bez paska – pokazuje się po Ctrl+Space" ;;
         nvim)            echo "Neovim (LazyVim) z LSP, DAP, Godot" ;;
@@ -41,7 +41,7 @@ desc() {
 deps() {
     case "$1" in
         hypr)            echo "hyprland hyprpaper jq wofi grim slurp wl-clipboard hypridle cmatrix python-gobject gtk3 gtk-layer-shell python-cairo" ;;
-        waybar)          echo "waybar jq ttf-meslo-nerd playerctl pavucontrol btop networkmanager wofi" ;;
+        waybar)          echo "waybar jq ttf-meslo-nerd playerctl pavucontrol" ;;
         alacritty)       echo "alacritty" ;;
         tmux)            echo "tmux" ;;
         nvim)            echo "neovim git gcc make unzip ripgrep fd lazygit gitui nodejs npm python ttf-meslo-nerd" ;;
