@@ -32,7 +32,7 @@ desc() {
         alacritty)       echo "terminal: czarny, przezroczysty" ;;
         tmux)            echo "tmux bez paska – pokazuje się po Ctrl+Space" ;;
         nvim)            echo "Neovim (LazyVim) z LSP, DAP, Godot" ;;
-        command-center)  echo "HUD pod SUPER+TAB: aplikacje, audio, jasność, BT, zrzuty, tapety" ;;
+        command-center)  echo "HUD pod SUPER+TAB: aplikacje, audio, jasność, BT, sieć, zrzuty, tapety" ;;
         wall-downloader) echo "pobieranie animowanych tapet z MoeWalls" ;;
     esac
 }
@@ -45,7 +45,7 @@ deps() {
         alacritty)       echo "alacritty" ;;
         tmux)            echo "tmux" ;;
         nvim)            echo "neovim git gcc make unzip ripgrep fd lazygit gitui nodejs npm python ttf-meslo-nerd" ;;
-        command-center)  echo "python-gobject gtk3 gtk-layer-shell libpulse bluez-utils ffmpeg wl-clipboard xdg-utils ddcutil pacman-contrib" ;;
+        command-center)  echo "python-gobject gtk3 gtk-layer-shell libpulse bluez-utils ffmpeg wl-clipboard xdg-utils ddcutil pacman-contrib networkmanager" ;;
         wall-downloader) echo "python-gobject gtk3 mpv ffmpeg" ;;
     esac
 }
